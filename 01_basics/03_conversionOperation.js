@@ -24,3 +24,21 @@ let someNumber = 33
 let stringNumber = String (someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+//*******************************Operation*************************//
+
+let value =3
+let negvalue = -value
+console.log(negvalue);
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+ console.log(null >0);   // the reason is that an equality check == and comparison >< >= 
+ console.log(null ==0);   //<= work differently.comparison converts null to a number,
+ console.log(null >=0);   // treating it as 0 that's why null>= 0 is true and null > 0 is false
+
+
+    // ===        -> strict check , it vheck its datatype first then decide to convert
+ console.log("2"=== 2);
